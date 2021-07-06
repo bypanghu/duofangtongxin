@@ -1,0 +1,44 @@
+/*
+    author : bypanghu
+    email : bypanghu@163.com
+*/
+
+#banner{
+    width: 100%;
+    height: 800px;
+    /*background-color: var(--ui-main-AT);*/
+}
+
+#banner .slide1{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.jsdelivr.net/gh/bypanghu/assets@master/web/banner/banner1.png");
+    background-size: cover;
+}
+#banner .slide2{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.jsdelivr.net/gh/bypanghu/assets@master/web/banner/banner2.png");
+    background-size: cover;
+}
+#banner .slide3{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.jsdelivr.net/gh/bypanghu/assets@master/web/banner/banner3.png");
+    background-size: cover;
+}
+
+/*重置banner的显示点*/
+#banner .swiper-pagination-bullet{
+    width: 8px;
+    height: 3px;
+    background-color: #C4CCFF;
+    border-radius: 2px;
+}
+#banner .swiper-pagination-bullet-active{
+    width: 45px;
+    height: 3px;
+    border-radius: 2px;
+    opacity: 1;
+    background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}

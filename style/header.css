@@ -1,0 +1,37 @@
+/*
+    author : bypanghu
+    email : bypanghu@163.com
+*/
+
+#header{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: -1px 1px 3px 1px rgba(0,0,0,0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#header .header-img{
+    width: 174px;
+    height: 50px;
+    display: inline-block;
+    object-fit: scale-down;
+}
+#header .header-nav .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--ui-header-text);
+}
+.nav .nav_item{
+    margin-right: 36px;
+}
+.nav .header-nav-call{
+    font-size: 20px;
+    font-weight: bold;
+}
